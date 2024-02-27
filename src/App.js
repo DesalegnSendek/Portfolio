@@ -7,12 +7,14 @@ import Products from './pages/Products.jsx'
 import Login from './pages/LoginSignup.jsx'
 // import Navbar from './portfolioComponents/Navbar.js'
 import Footer from './portfolioComponents/Footer.js';
+import Navbar from './portfolioComponents/Navbar.js';
 // import HeroSection from './portfolioComponents/HeroSection.js';
 
 function App() {
   return (
       <>
       <BrowserRouter>
+      <Home/>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/About' element={<About/>}/>
