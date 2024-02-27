@@ -6,10 +6,7 @@ const Home = () => {
   return (
     <>
       {/* <Navbar/> */}
-      <div style={{marginTop:20}}>
-        <HeroSection />
-      </div>
-      
+        <div style={{marginBottom:"340px"}}><HeroSection /></div>
       {/* <Hero2/> */}
     </>
   );
