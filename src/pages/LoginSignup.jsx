@@ -21,7 +21,7 @@ const Loginsignup = () => {
 
     return (
         <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <div className='login-signup'>
                 <div className="login-signup-container" onSubmit={handleSubmit}>
                         <h1>Sign Up</h1>

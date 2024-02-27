@@ -5,7 +5,7 @@ import Hero2 from '../portfolioComponents/Hero2.js'
 const Home = () => {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <div style={{marginTop:20}}>
         <HeroSection />
       </div>

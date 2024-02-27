@@ -10,7 +10,7 @@ import Work from '../portfolioComponents/WorkCard.js'
 const Products = () => {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Hero2 heading="PROJECTS." text="Some of my recent works."/>
       <PricingCard/>
       <Work/>
