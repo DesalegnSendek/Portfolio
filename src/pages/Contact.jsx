@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
     {/* <div><Navbar/></div> */}
-    <div><Hero2 heading="CONTACT US." text="Let's have a chat."/></div>
+    <div style={{marginBottom:"100px"}}><Hero2 heading="CONTACT US." text="Let's have a chat."/></div>
     
     {/* <div><Footer/></div> */}
     </>
